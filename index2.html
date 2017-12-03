@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>CodersLab</title>
-
+    <title>Sit on chair</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style3.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway:200,400,500,700,900&amp;subset=latin-ext" rel="stylesheet">
@@ -11,6 +11,7 @@
 </head>
 <body>
     <header>
+
         <div class="container">
             <h1>SIT <span class="green">ON</span> CHAIR</h1>
             <nav>
@@ -32,28 +33,28 @@
     <section class="slider"><!--jest to sekcja do 1. rzeczy tu mam krzesło i opis-->
       <div class="container">
         <div class="slide">
-          <div class="slider_chair">
+          <div class="slider__chair">
             <img src="images/black_chair.png" alt="krzeslo">
           </div>
-          <div class="slider_description">
-            <h2>SIT <span class="green"><b>ON</b></span> OUR <span class="green"><b>CHAIR</b></span></h2>
+          <div class="slider__description">
+            <h2>SIT <span class="green"><strong>ON</strong></span> OUR <span class="green"><strong>CHAIR</strong></span></h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
               <a class="button" href="">Zobacz więcej</a>
           </div>
         </div>
         <div class="slide">
-          <div class="slider_chair">
+          <div class="slider__chair">
             <img src="images/orange.png" alt="krzeslo">
           </div>
-          <div class="slider_description">
-            <h2>SIT <span class="green"><b>ON</b></span> OUR <span class="green"><b>CHAIR</b></span></h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <div class="slider__description">
+            <h2>SIT <span class="green"><strong>ON</strong></span> OUR <span class="green"><strong>CHAIR</strong></span></h2>
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
               <a class="button" href="">Zobacz więcej</a>
           </div>
         </div>
         <div id="prev">&lt;</div>
         <div id="next">&gt;</div>
-        
+
       </div>
 
     </section>
@@ -61,12 +62,12 @@
     <section class="boxes">
       <div class="container">
          <div class="image-box box1">
-            <div class="image-box_decoration">
+            <div class="image-box__decoration">
               <h2>Chair CLARE</h2>
             </div>
          </div>
          <div class="image-box box2">
-           <div class="image-box_decoration">
+           <div class="image-box__decoration">
              <h2>Chair MARGARITA</h2>
            </div>
          </div>
@@ -78,20 +79,21 @@
       </div>
     </section>
 
-    <section class="pricelist">
-
+    <section class="price-list">
+      <h2 class=contact__title>Cennik</h2>
       <div class="container">
-        <h2>CENNIK</h2>
+
+
         <div class="offer-box">
-          <div class="offer-box_circle">
-            <div class="offer-box_circle_dot">
+          <div class="offer-box__circle">
+            <div class="offer-box__circle__dot">
             </div>
           </div>
           <h3>Basic plan</h3>
-          <div class="offer-box_price">85<SUP>99</SUP><br>
-            <span class="offer-box_price_period">PLN/MSC</span>
+          <div class="offer-box__price">85<SUP>99</SUP><br>
+            <span class="offer-box__price__period">PLN/MSC</span>
           </div>
-          <ul class="offer-box_details">
+          <ul class="offer-box__details">
             <li>Zakup towaru + dowóz</li>
             <li>Serwis</li>
           </ul>
@@ -99,14 +101,14 @@
           <a href="" class="button">Dołącz</a>
         </div>
         <div class="offer-box">
-          <div class="offer-box_circle">
-            <div class="offer-box_circle_dot"></div>
+          <div class="offer-box__circle">
+            <div class="offer-box__circle__dot"></div>
           </div>
           <h3>Standard plan</h3>
-          <div class="offer-box_price">95<SUP>99</SUP><br>
-            <span class="offer-box_price_period">PLN/MSC</span>
+          <div class="offer-box__price">95<SUP>99</SUP><br>
+            <span class="offer-box__price__period">PLN/MSC</span>
           </div>
-          <ul class="offer-box_details">
+          <ul class="offer-box__details">
             <li>Zakup towaru + dowóz</li>
             <li>Serwis</li>
             <li>Gwarancja 5 lat</li>
@@ -115,14 +117,14 @@
           <a href="" class="button">Dołącz</a>
         </div>
         <div class="offer-box">
-          <div class="offer-box_circle">
-            <div class="offer-box_circle_dot"></div>
+          <div class="offer-box__circle">
+            <div class="offer-box__circle__dot"></div>
           </div>
           <h3>Advanced plan</h3>
-          <div class="offer-box_price">211<SUP>00</SUP><br>
-            <span class="offer-box_price_period">PLN/MSC</span>
+          <div class="offer-box__price">211<SUP>00</SUP><br>
+            <span class="offer-box__price__period">PLN/MSC</span>
           </div>
-          <ul class="offer-box_details">
+          <ul class="offer-box__details">
             <li>Zakup towaru + dowóz</li>
             <li>Serwis</li>
             <li>Gwarancja 6 lat</li>
@@ -134,20 +136,22 @@
 
     </section>
     <section class="contact-form">
-        <div class="container">
-          <h2>Kontakt</h2>
-          <div class="contact-form_left-column">
+      <h2 class=contact__title>Kontakt</h2>
+        <div class="container contact">
+
+          <div class="contact-form__left-column">
             <input type="text" name="name" placeholder="Imię"/>
             <input type="email" name="email" placeholder="E-mail"/>
             <textarea placeholder="Wiadomość"></textarea>
           </div>
-          <div class="contact-form_right-column">
+          <div class="contact-form__right-column">
             <img src="images/red_chair.png" alt="krzeslo">
 
-            <p><img class="contact-form_right-column-ok" src="images/form_ok.jpg" alt="ok"> Zgadzam się na przetwarzanie danych osobowych</p>
+            <p><img class="contact-form__right-column-ok" src="images/form_ok.jpg" alt="ok"> Zgadzam się na przetwarzanie danych osobowych</p>
             <input type="submit" value="Wyślij">
 
           </div>
+        </div>
     </section>
     <footer>
     <div class="footer container">
