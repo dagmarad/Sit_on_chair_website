@@ -3,7 +3,6 @@ body{
     font-family:'Raleway', Helvetica, sans-serif;
     font-size:16px;
 }
-
 /* block elements*/
 header {
   background: #000;
@@ -43,7 +42,6 @@ footer{
 }
 .image-box {
   flex:1;
-
 }
 .image-box:nth-child(2){
   margin-left:10px;
@@ -82,7 +80,6 @@ footer{
   overflow: auto;
   padding-top: 10px;
 }
-
 .section3__box1{
   border: 2px solid #27C7AB;
   width:295px;
@@ -93,8 +90,6 @@ footer{
   float: left;
   margin: 30px 25px 50px 5px;
   background-color: #27C7AB;
-
-
 }
 .offer-box {
    max-width:320px;
@@ -106,7 +101,6 @@ footer{
    border: 1px solid #C2C2C2;
    background-color: #F9F9F9;
    flex:1;
-
  }
  .offer-box:nth-child(2){
    margin-left:10px;
@@ -118,7 +112,7 @@ footer{
 .offer-box:nth-child(2n+1) h3{
     color: #ffffff
   }
-
+  
  .offer-box__circle{
    height: 56px;
    width: 56px;
